@@ -77,6 +77,23 @@ ul li i {
 .header-section img {
   background-image: url("images/Circle design.svg");
 }
+.sponsored {
+  margin-top: 69px;
+  border-top: 1px solid rgba(192, 204, 218, 40);
+  border-bottom: 1px solid rgba(192, 204, 218, 40);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 90%;
+  margin: 69px auto 100px auto;
+  width: 70%;
+  padding: 30px;
+}
+.sponsored > img {
+  width: 55.051px;
+}
 
 /* small size device brekpoint: mobile screen*/
 @media screen and (max-width: 576px) {
